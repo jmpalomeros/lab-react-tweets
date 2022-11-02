@@ -19,13 +19,13 @@ function Tweet(props) {
           <Timestamp times={props.tweet.timestamp} />
 
           </div>
-      </div>    
+          
 
        <Message message={props.tweet.message}/>
-
+       
        <Actions />
+      </div>
       
-
       <i className="fas fa-ellipsis-h"></i> 
     </div>
   );
